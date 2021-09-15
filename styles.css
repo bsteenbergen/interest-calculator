@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to left top, lightblue, white) fixed;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: dotted black;
+    font-family: marker felt, fantasy;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  h1:hover {
+    text-shadow: 3px 3px black;
+  }
+  
+  label {
+    font-family: monospace;
+    font-size: 20px;
+  }
+  
+  label:hover {
+    text-transform: uppercase;
+  }
+  
+  #form {
+    text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 110px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  
+  span {
+    text-align: center;
+  }
+  
+  input:hover {
+    background-color:lightblue;
+  }
+  
+  #rainbow {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75px;
+      border-radius: 10px;
+      margin-top:20px;
+      margin-bottom: 20px;
+  }
+  
+  #rainbow:hover {
+    transform: rotate(30deg);
+  }
+  
+  #answerp {
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    transition-property: font-size;
+    transition-duration: 4s;
+  }
+  
+  #answerp.hover {
+    font-size: 25px; 
+  }
+  
+  #github {
+    width: 50px;
+    position: fixed;
+    left: 3px;
+    bottom: 0;
+  }
+  
+  #linkedin {
+    width: 50px;
+    position: fixed;
+    right: 3px;
+    bottom: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+  }
